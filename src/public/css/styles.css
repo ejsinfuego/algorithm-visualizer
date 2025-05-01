@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: #1D1F21;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.array-container {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.array-bar {
+    flex: 1;
+    background-color: #FF6F20;
+    margin: 0 1px;
+    transition: height 0.1s ease-in-out;
+}
+
+.controls {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+button, select {
+    padding: 8px 12px;
+    font-size: 14px;
+}

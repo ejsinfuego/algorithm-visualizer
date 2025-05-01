@@ -1,0 +1,15 @@
+{
+    "name": "sorting-algorithms-visualizer",
+    "version": "1.0.0",
+    "description": "A web application to visualize various sorting algorithms.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [
+        "sorting",
+        "algorithms",
+        "visualization",
+        "web"
+    ]
+}
